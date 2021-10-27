@@ -12,3 +12,8 @@ Ich garantiere nicht für die Richtigheit meiner Ergebnisse und rate generell da
 
 - **Uebung1:** 10/10
 - **Rechner:** 10/10
+
+### Woche 2
+
+- **Uebung2:** 10/10
+- **Logikaufgabe:** 10/10
