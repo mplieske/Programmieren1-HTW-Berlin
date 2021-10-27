@@ -6,7 +6,10 @@ namespace AnweisungenUmsetzen
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Bitte geben Sie Ihren Vor- und Nachnamen ein:");
+            string name = Console.ReadLine();
+
+            Console.WriteLine($"Hallo {name}!");
         }
     }
 }
