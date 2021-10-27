@@ -5,3 +5,10 @@ In diesem Repo veröffentliche ich meine Lösungen zu den Übungsaufgaben des Mo
 ## Disclaimer
 
 Ich garantiere nicht für die Richtigheit meiner Ergebnisse und rate generell davon ab, meine Ergebnisse als die eigenen auszugeben. Dieses Repo dient lediglich dafür, dass andere ihre eigenen Ergebnisse abgleichen können und ich eine Versionierung habe.
+
+## Ergebnisse
+
+### Woche 1
+
+**Uebung1:** 10/10
+**Rechner:** 10/10
