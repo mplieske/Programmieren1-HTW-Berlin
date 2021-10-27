@@ -17,3 +17,8 @@ Ich garantiere nicht für die Richtigheit meiner Ergebnisse und rate generell da
 
 - **Uebung2:** 10/10
 - **Logikaufgabe:** 10/10
+
+## Woche 3
+
+- **Typen:** 10/10
+- **BinaerAusgaben:** 10/10
