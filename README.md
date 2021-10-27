@@ -10,5 +10,5 @@ Ich garantiere nicht für die Richtigheit meiner Ergebnisse und rate generell da
 
 ### Woche 1
 
-**Uebung1:** 10/10
-**Rechner:** 10/10
+- **Uebung1:** 10/10
+- **Rechner:** 10/10
