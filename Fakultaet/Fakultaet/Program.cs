@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 
 namespace Fakultaet
 {
@@ -28,6 +29,19 @@ namespace Fakultaet
                 }
 
                 return number * CalculateFactorial(number - 1);
+            }
+        }
+
+        public static BigInteger CalculateBigFactorial(uint number)
+        {
+            checked
+            {
+                if (number <= 1)
+                {
+                    return number;
+                }
+
+                return number * CalculateBigFactorial(number - 1);
             }
         }
     }
