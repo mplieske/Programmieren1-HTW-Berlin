@@ -27,3 +27,8 @@ Ich garantiere nicht für die Richtigheit meiner Ergebnisse und rate generell da
 
 - **MathematischeFunktionen:** 10/10
 - **ZinsBerechnung:** 10/10
+
+### Woche 5
+
+- **AnweisungenUmsetzen:** 10/10
+- **Fakultaet:** 6,5/10 (to be continued)
