@@ -20,12 +20,15 @@ namespace Fakultaet
         /// <returns>the factorial of the parameter number as an ulong.</returns>
         public static ulong CalculateFactorial(uint number)
         {
-            if(number <= 1)
+            checked
             {
-                return number;
-            }
+                if (number <= 1)
+                {
+                    return number;
+                }
 
-            return number * CalculateFactorial(number - 1);
+                return number * CalculateFactorial(number - 1);
+            }
         }
     }
 }
