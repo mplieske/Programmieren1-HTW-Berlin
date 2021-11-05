@@ -13,7 +13,12 @@ namespace Fakultaet
             }
         }
 
-        public static double CalculateFactorial(uint number)
+        /// <summary>
+        /// Takes a uint number and calculates its factorial.
+        /// </summary>
+        /// <param name="number">The number of which the factorial should be calculated.</param>
+        /// <returns>the factorial of the parameter number as an ulong.</returns>
+        public static ulong CalculateFactorial(uint number)
         {
             if(number <= 1)
             {
