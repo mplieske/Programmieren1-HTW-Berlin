@@ -8,5 +8,15 @@ namespace ReihenBerechnen
         {
             Console.WriteLine("Hello World!");
         }
+
+        public static decimal FakultaetVon(uint zahl)
+        {
+            if (zahl <= 1)
+            {
+                return zahl;
+            }
+
+            return FakultaetVon(zahl - 1);
+        }
     }
 }
