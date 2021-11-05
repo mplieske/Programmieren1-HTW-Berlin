@@ -18,5 +18,15 @@ namespace ReihenBerechnen
 
             return FakultaetVon(zahl - 1);
         }
+
+        public static decimal BerechneSumme1MitEndwert(uint endwert)
+        {
+            decimal number = 1;
+            for (uint i = 1; i <= endwert; i++)
+            {
+                number += 1 / FakultaetVon(i);
+            }
+            return number;
+        }
     }
 }
