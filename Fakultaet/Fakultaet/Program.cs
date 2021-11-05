@@ -6,7 +6,11 @@ namespace Fakultaet
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(CalculateFactorial(5));
+            for(uint i = 0; i < 25; i++)
+            {
+                ulong iFactorial = CalculateFactorial(i);
+                Console.WriteLine($"{i}! = '{iFactorial}'");
+            }
         }
 
         public static double CalculateFactorial(uint number)
