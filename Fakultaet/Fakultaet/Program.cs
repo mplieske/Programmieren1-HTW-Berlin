@@ -18,7 +18,7 @@ namespace Fakultaet
         /// Takes a uint number and calculates its factorial.
         /// </summary>
         /// <param name="number">The number of which the factorial should be calculated.</param>
-        /// <returns>the factorial of the parameter number as an ulong.</returns>
+        /// <returns>The factorial of the parameter number as an ulong.</returns>
         public static ulong CalculateFactorial(uint number)
         {
             checked
