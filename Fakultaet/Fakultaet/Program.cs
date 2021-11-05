@@ -7,9 +7,9 @@ namespace Fakultaet
     {
         static void Main(string[] args)
         {
-            for(uint i = 0; i < 25; i++)
+            for (uint i = 0; i <= 100; i++)
             {
-                ulong iFactorial = CalculateFactorial(i);
+                BigInteger iFactorial = CalculateBigFactorial(i);
                 Console.WriteLine($"{i}! = '{iFactorial}'");
             }
         }
