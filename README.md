@@ -32,3 +32,7 @@ Ich garantiere nicht für die Richtigheit meiner Ergebnisse und rate generell da
 
 - **AnweisungenUmsetzen:** 10/10
 - **Fakultaet:** 10/10
+
+### Woche 6
+
+- **ReihenBerechnen:** 10/10
