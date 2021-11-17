@@ -37,3 +37,7 @@ Ich garantiere nicht für die Richtigheit meiner Ergebnisse und rate generell da
 
 - **ReihenBerechnen:** 10/10
 - **NewtonVerfahren:** 10/10
+
+### Woche 7
+
+- **Textanalyse:** 10/10
