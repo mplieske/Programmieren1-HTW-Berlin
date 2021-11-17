@@ -31,4 +31,4 @@ Ich garantiere nicht für die Richtigheit meiner Ergebnisse und rate generell da
 ### Woche 5
 
 - **AnweisungenUmsetzen:** 10/10
-- **Fakultaet:** 6,5/10 (to be continued)
+- **Fakultaet:** 10/10
