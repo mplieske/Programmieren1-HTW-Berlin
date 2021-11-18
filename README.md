@@ -41,3 +41,4 @@ Ich garantiere nicht für die Richtigheit meiner Ergebnisse und rate generell da
 ### Woche 7
 
 - **Textanalyse:** 10/10
+- **TextanalyseCollections** 10/10
