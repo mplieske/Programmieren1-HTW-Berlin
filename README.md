@@ -47,4 +47,8 @@ Ich garantiere nicht für die Richtigheit meiner Ergebnisse und rate generell da
 
 - **DatumBestimmen:** 10/10
 - **IterationUndRekursion:** 10/10
-  
+
+### Woche 9
+
+- **Methodenparameter:** 10/10
+- **Primzahlen:** 10/10
