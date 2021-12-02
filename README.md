@@ -46,3 +46,5 @@ Ich garantiere nicht für die Richtigheit meiner Ergebnisse und rate generell da
 ### Woche 8
 
 - **DatumBestimmen:** 10/10
+- **IterationUndRekursion:** 10/10
+  
