@@ -38,7 +38,7 @@ namespace Fakultaet
             {
                 if (number <= 1)
                 {
-                    return number;
+                    return 1;
                 }
 
                 return number * CalculateBigFactorial(number - 1);
