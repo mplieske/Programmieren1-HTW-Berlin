@@ -10,45 +10,45 @@ Ich garantiere nicht für die Richtigheit meiner Ergebnisse und rate generell da
 
 ### Woche 1
 
-- **Uebung1:** 10/10
-- **Rechner:** 10/10
+- **[Uebung1](./Uebung1/Uebung1/Program.cs):** 10/10
+- **[Rechner](./Rechner/Rechner/Program.cs):** 10/10
 
 ### Woche 2
 
-- **Uebung2:** 10/10
-- **Logikaufgabe:** 10/10
+- **[Uebung2](./Uebung2/Uebung2/Program.cs):** 10/10
+- **[Logikaufgabe](./Logikaufgabe/Logikaufgabe/Program.cs):** 10/10
 
 ### Woche 3
 
-- **Typen:** 10/10
-- **BinaerAusgaben:** 10/10
+- **[Typen](./Typen/Typen/Program.cs):** 10/10
+- **[BinaerAusgabe](./BinaerAusgabe/BinaerAusgabe/Program.cs):** 10/10
 
 ### Woche 4
 
-- **MathematischeFunktionen:** 10/10
-- **ZinsBerechnung:** 10/10
+- **[MathematischeFunktionen](./MathematischeFunktionen/MathematischeFunktionen/Program.cs):** 10/10
+- **[ZinsBerechnung](./ZinsBerechnung/ZinsBerechnung/Program.cs):** 10/10
 
 ### Woche 5
 
-- **AnweisungenUmsetzen:** 10/10
-- **Fakultaet:** 10/10
+- **[AnweisungenUmsetzen](./AnweisungenUmsetzen/AnweisungenUmsetzen/Program.cs):** 10/10
+- **[Fakultaet](./Fakultaet/Fakultaet/Program.cs):** 10/10
 
 ### Woche 6
 
-- **ReihenBerechnen:** 10/10
-- **NewtonVerfahren:** 10/10
+- **[ReihenBerechnen](./ReihenBerechnen/ReihenBerechnen/Program.cs):** 10/10
+- **[NewtonVerfahren](./NewtonVerfahren/NewtonVerfahren/Program.cs):** 10/10
 
 ### Woche 7
 
-- **Textanalyse:** 10/10
-- **TextanalyseCollections** 10/10
+- **[Textanalyse](./Textanalyse/Textanalyse/Program.cs):** 10/10
+- **[TextanalyseCollections](./TextanalyseCollections/TextanalyseCollections/Program.cs)** 10/10
 
 ### Woche 8
 
-- **DatumBestimmen:** 10/10
-- **IterationUndRekursion:** 10/10
+- **[DatumBestimmen](./DatumBestimmen/DatumBestimmen/Program.cs):** 10/10
+- **[IterationUndRekursion](./IterationUndRekursion/IterationUndRekursion/Program.cs):** 10/10
 
 ### Woche 9
 
-- **Methodenparameter:** 10/10
-- **Primzahlen:** 10/10
+- **[Methodenparameter](./Methodenparameter/Methodenparameter/Program.cs):** 10/10
+- **[Primzahlen](./Primzahlen/Primzahlen/Program.cs):** 10/10
