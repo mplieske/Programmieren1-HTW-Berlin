@@ -51,3 +51,4 @@ Ich garantiere nicht für die Richtigheit meiner Ergebnisse und rate generell da
 ### Woche 9
 
 - **Methodenparameter:** 10/10
+- **Primzahlen:** 10/10
