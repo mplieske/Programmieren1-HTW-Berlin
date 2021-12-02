@@ -25,7 +25,7 @@ namespace Fakultaet
             {
                 if (number <= 1)
                 {
-                    return number;
+                    return 1;
                 }
 
                 return number * CalculateFactorial(number - 1);
