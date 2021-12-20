@@ -6,37 +6,21 @@ namespace KlassenErstellenTeil1
 {
     class Linie
     {
-        public Punkt startPunkt;
-        public Punkt endPunkt;
+        public Punkt StartPunkt { get; set; }
+        public Punkt EndPunkt { get; set; }
 
-        public Punkt StartPunkt()
+        public double Laenge
         {
-            return startPunkt;
+            get { return StartPunkt.AbstandZu(EndPunkt); }
         }
 
-        public void StartPunkt(Punkt startPunkt)
-        {
-            this.startPunkt = startPunkt;
-        }
-
-        public Punkt EndPunkt()
-        {
-            return endPunkt;
-        }
-
-        public void EndPunkt(Punkt endPunkt)
-        {
-            this.endPunkt = endPunkt;
-        }
-
-        public double Laenge()
-        {
-            return startPunkt.AbstandZu(endPunkt);
-        }
-
+        /// <summary>
+        /// Generates a JSON string representation of this Linie.
+        /// </summary>
+        /// <returns>Returns the generated JSON string.</returns>
         public override string ToString()
         {
-            return $"Startpunkt: [{startPunkt.ToString()}], Endpunkt: [{endPunkt.ToString()}], Länge: '{Laenge()}'";
+            return $"{{StartPunkt: {StartPunkt}, EndPunkt: {EndPunkt}, Laenge: '{Laenge}'}}";
         }
     }
 }

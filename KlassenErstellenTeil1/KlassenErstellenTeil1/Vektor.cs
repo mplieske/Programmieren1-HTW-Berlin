@@ -10,49 +10,52 @@ namespace KlassenErstellenTeil1
         private double y;
         private double z;
 
-        public double GetX()
+        public double X
         {
-            return x;
+            get { return x; }
+            set { x = value; }
         }
 
-        public void SetX(double x)
+        public double Y
         {
-            this.x = x;
+            get { return y; }
+            set { y = value; }
         }
 
-        public double GetY()
+        public double Z
         {
-            return y;
+            get { return z; }
+            set { z = value; }
         }
 
-        public void SetY(double y)
-        {
-            this.y = y;
-        }
-
-        public double GetZ()
-        {
-            return z;
-        }
-
-        public void SetZ(double z)
-        {
-            this.z = z;
-        }
-
+        /// <summary>
+        /// Calculates the scalar product of this Vektor and another one.
+        /// </summary>
+        /// <param name="b">The other Vektor instance.</param>
+        /// <returns>Returns the scalar product of this Vektor and b as double.</returns>
         public double BerechneSkalarprodukt(Vektor b)
         {
-            return (x * b.GetX()) + (y * b.GetY()) + (z * b.GetZ());
+            return x * b.X + y * b.Y + z * b.Z;
         }
 
+        /// <summary>
+        /// Calculates the scalar product of two Vektor instances.
+        /// </summary>
+        /// <param name="a">First Vektor instance</param>
+        /// <param name="b">Second Vektor instance</param>
+        /// <returns>Returns scalar product of a and b as double.</returns>
         public static double BerechneSkalarprodukt(Vektor a, Vektor b)
         {
             return a.BerechneSkalarprodukt(b);
         }
 
-        override public string ToString()
+        /// <summary>
+        /// Generates a JSON string representation of this Vektor.
+        /// </summary>
+        /// <returns>Returns the generated JSON string.</returns>
+        public override string ToString()
         {
-            return $"X: '{x}', Y: '{y}', Z: '{z}'";
+            return $"{{X: '{X}', Y: '{Y}', Z: '{Z}'}}";
         }
     }
 }

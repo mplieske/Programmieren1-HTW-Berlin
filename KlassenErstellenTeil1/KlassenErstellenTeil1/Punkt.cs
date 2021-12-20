@@ -6,56 +6,42 @@ namespace KlassenErstellenTeil1
 {
     class Punkt
     {
-        public double X;
-        public double Y;
-        public double Z;
+        public double X { get; set; }
+        public double Y { get; set; }
+        public double Z { get; set; }
 
-        public double GetX()
-        {
-            return X;
-        }
-
-        public void SetX(double x)
-        {
-            this.X = x;
-        }
-
-        public double GetY()
-        {
-            return Y;
-        }
-
-        public void SetY(double y)
-        {
-            this.Y = y;
-        }
-
-        public double GetZ()
-        {
-            return Z;
-        }
-
-        public void SetZ(double z)
-        {
-            this.Z = z;
-        }
-
+        /// <summary>
+        /// Calculates the distance to another Punkt instance.
+        /// </summary>
+        /// <param name="endPunkt">The other Punkt instance.</param>
+        /// <returns>Returns the discance as double.</returns>
         public double AbstandZu(Punkt endPunkt)
         {
-            double deltaX = X - endPunkt.GetX();
-            double deltaY = Y - endPunkt.GetY();
-            double deltaZ = Z - endPunkt.GetZ();
+            double deltaX = endPunkt.X - X;
+            double deltaY = endPunkt.Y - Y;
+            double deltaZ = endPunkt.Z - Z;
+
             return Math.Sqrt(Math.Pow(deltaX, 2) + Math.Pow(deltaY, 2) + Math.Pow(deltaZ, 2));
         }
 
+        /// <summary>
+        /// Calculates the distance between two Punkt instances.
+        /// </summary>
+        /// <param name="startPunkt">Starting point</param>
+        /// <param name="endPunkt">Ending point</param>
+        /// <returns>Returns the distance between startPunkt and endPunkt as double.</returns>
         public static double AbstandZwischen(Punkt startPunkt, Punkt endPunkt)
         {
             return startPunkt.AbstandZu(endPunkt);
         }
 
-        override public string ToString()
+        /// <summary>
+        /// Generates a JSON string representation of this Punkt.
+        /// </summary>
+        /// <returns>Returns the generated string in JSON.</returns>
+        public override string ToString()
         {
-            return $"X: '{X}', Y: '{Y}', Z: '{Z}'";
+            return $"{{X: '{X}', Y: '{Y}', Z: '{Z}'}}";
         }
     }
 }
