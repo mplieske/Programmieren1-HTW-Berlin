@@ -52,3 +52,7 @@ Ich garantiere nicht für die Richtigheit meiner Ergebnisse und rate generell da
 
 - **Methodenparameter:** 10/10
 - **Primzahlen:** 10/10
+
+### Woche 10
+
+- **KlassenErstellenTeil1:** 10/10
