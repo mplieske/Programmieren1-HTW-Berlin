@@ -52,3 +52,8 @@ Ich garantiere nicht für die Richtigheit meiner Ergebnisse und rate generell da
 
 - **[Methodenparameter](./Methodenparameter/Methodenparameter/Program.cs):** 10/10
 - **[Primzahlen](./Primzahlen/Primzahlen/Program.cs):** 10/10
+
+### Woche 10
+
+- **[KlassenErstellenTeil1](./KlassenErstellenTeil1/KlassenErstellenTeil1/Program.cs):** 10/10
+- **[Bisektionsverfahren](./Bisektionsverfahren/Bisektionsverfahren/Program.cs):** 10/10
