@@ -57,3 +57,8 @@ Ich garantiere nicht für die Richtigheit meiner Ergebnisse und rate generell da
 
 - **[KlassenErstellenTeil1](./KlassenErstellenTeil1/KlassenErstellenTeil1/Program.cs):** 10/10
 - **[Bisektionsverfahren](./Bisektionsverfahren/Bisektionsverfahren/Program.cs):** 10/10
+
+### Woche 11
+
+- **[KlassenErstellenTeil2](./KlassenErstellenTeil2/KlassenErstellenTeil2/Program.cs)** 10/10
+- **[ZahlenSortieren](./ZahlenSortieren/ZahlenSortieren/Program.cs)** 10/10
