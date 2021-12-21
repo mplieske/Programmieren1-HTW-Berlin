@@ -61,3 +61,4 @@ Ich garantiere nicht für die Richtigheit meiner Ergebnisse und rate generell da
 ### Woche 11
 
 - **[KlassenErstellenTeil2](./KlassenErstellenTeil2/KlassenErstellenTeil2/Program.cs)** 10/10
+- **[ZahlenSortieren](./ZahlenSortieren/ZahlenSortieren/Program.cs)** 10/10
